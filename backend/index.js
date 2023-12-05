@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({limit: '50mb', extended: true}));
 
 //middlewares
 app.use(express.json());
-app.use(cors({ origin: 'http://localhost' }));
+app.use(cors({ origin: 'https://birabar.netlify.app' }));
 //app.use(cors({ origin: 'http://100.24.204.191:4200' }));
 
 //Cargamos el modulo de direccionamiento de rutas
